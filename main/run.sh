@@ -1,0 +1,1 @@
+nohup python -u train.py --dataset=huawei --gpu=0 --nas=1 --fis=1 --mlp=1 --retrain_nas=1 --retrain_fis=1 --mutation=1 > criteo.log 2>&1 &
